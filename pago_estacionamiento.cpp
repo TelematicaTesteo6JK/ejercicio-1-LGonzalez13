@@ -22,7 +22,16 @@ float pago_estacionamiento(int horas)
 
 void casos_de_prueba(){
 
-    cout << "TEST CASES" << endl;
+    cout << "TEST CASES";
+    cout << "Test data" <<"Expected Result" << "Actual Result" << "Pass/Fail"<< endl;
+
+    cout << "5" << "50" << pago_estacionamiento(5) << if (50 == pago_estacionamiento(5)) << endl;
+    cout << "-2" << "False" << pago_estacionamiento(-2) << endl;
+    cout << "11" << "False" << pago_estacionamiento(11) << endl;
+
+
+
+
     // Agrega tus casos de prueba
 
 
